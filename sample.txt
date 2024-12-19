@@ -1,0 +1,1 @@
+docker run -d --name=prometheus -p 9090:9090 -v C:\MyGit\sparta_monitoring\prometheus\prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
